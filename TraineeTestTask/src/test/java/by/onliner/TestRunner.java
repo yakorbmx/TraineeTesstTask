@@ -15,6 +15,8 @@ public class TestRunner {
     //        "webdriver.chrome.driver",
     //        "src\\resources\\chromedriver.exe"); // в случае если не прописаны переменные среды
     // разкомментить, также можно "прикрутить" библиотеку WebdriverManager
+    // P.S. проверить версию браузера и chromedriver'a лежащего в папке в том случае, если на тестовом
+    // стенде не предустановлен chromedriver в переменных среды.
     chromeDriver = new ChromeDriver();
   }
 
